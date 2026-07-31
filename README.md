@@ -1,8 +1,12 @@
-# 中文论文综述写作 Skill
+# 文献综述救星｜中文论文综述写作 Codex 技能
 
-这是一个面向中文本科、硕士论文及其他学术写作场景的 Codex Skill。它把文献综述中经常重复的工作整理成一套稳定流程：先检索和核对材料，再归组比较，最后完成综述正文和研究述评。
+> 不堆作者，不编文献：从检索、筛选、综合到研究述评，一套技能跑通。
 
-这个 Skill 不负责虚构文献，也不会为了让文字看起来“像论文”而补造作者、数据、页码、DOI 或学校要求。材料不足时，它会明确指出缺口，先给出检索方向、证据矩阵或写作框架。
+“文献综述救星”是一个面向中文本科、硕士论文及其他学术写作场景的 Codex 技能。它把文献综述中经常重复的工作整理成一套稳定流程：先检索和核对材料，再归组比较，最后完成综述正文和研究述评。
+
+这个技能不负责虚构文献，也不会为了让文字看起来“像论文”而补造作者、数据、页码、DOI 或学校要求。材料不足时，它会明确指出缺口，先给出检索方向、证据矩阵或写作框架。
+
+**中文检索关键词：** 文献综述、国内外研究现状、研究述评、综述写作、文献检索、核心期刊、硕士论文、文献矩阵、中文论文、学术写作。
 
 ## 它能做什么
 
@@ -12,6 +16,7 @@
 - 核验核心目录、数据库收录、期刊分区和院校学科排名的版本年份；
 - 从 PDF、Word、Excel、CSV、文献表或阅读笔记中整理证据；
 - 建立包含研究问题、对象、理论、方法、发现和局限的文献矩阵；
+- 遵循“先读、综合、再写”，兼顾对既有研究的沿袭与对学术讨论的推进；
 - 按主题、争议、方法、理论或时间演变组织文献；
 - 把“作者观点排队”改成有归组、有比较、有评述的综述；
 - 保留原引用编号和事实，修改结构、衔接与学术表达；
@@ -26,13 +31,15 @@
 
 有些初稿列了很多作者和观点，看起来材料充足，读完却看不出研究之间的联系；有些综述为了强调创新，把“暂时没有检索到”直接写成“国内外尚无研究”；还有些文本用了很多学术词，但没有说明研究对象、方法、证据和适用条件。这样的内容即使篇幅够了，逻辑仍然是散的。
 
-我做这个 Skill，就是想把日常修改时反复使用的判断固定下来：
+我做“文献综述救星”，就是想把日常修改时反复使用的判断固定下来：
 
+- 阅读是写作的前提，材料没有读够时先补证据，不急着拼出成稿；
 - 先做材料盘点，不拿空泛表述代替证据；
 - 近 3—5 年国内外核心期刊构成主体，必要的经典文献说明保留理由；
 - 硕士论文重视主题相关性和院校学科实力，不用学校综合排名代替专业排名；
 - 围绕研究问题归组，不按作者逐篇罗列；
 - 比较对象、理论、方法、结论和适用边界；
+- 把“总结单篇文献”推进到“综合多篇研究”，让本文既接得住已有讨论，也能说明新增了什么；
 - 研究不足必须有依据，并且能连接本文的研究设计；
 - 语言要自然、稳妥、清楚，不能为了“学术感”堆空词；
 - 不编造文献、数据、案例、引用或学校规则。
@@ -46,16 +53,18 @@
 点击代码框右上角的复制按钮，再把完整内容发送给 Codex：
 
 ```text
-请使用 $skill-installer 安装这个 Skill：https://github.com/tanqi87/chinese-literature-review-writing-skill/tree/main/chinese-literature-review-writing
+请使用 $skill-installer 安装“文献综述救星”Codex 技能：https://github.com/tanqi87/chinese-literature-review-writing-skill/tree/main/chinese-literature-review-writing
 ```
 
 ### 方法二：Mac 双击安装
 
-1. [下载仓库 ZIP](https://github.com/tanqi87/chinese-literature-review-writing-skill/archive/refs/heads/main.zip) 并解压；
-2. 双击解压目录中的 `install.command`；
+1. [下载 Mac 一键安装包](https://raw.githubusercontent.com/tanqi87/chinese-literature-review-writing-skill/main/chinese-literature-review-writing-installer.zip) 并解压；
+2. 双击文件夹中的 `install.command`；
 3. 安装完成后，重新打开 Codex 或开始一个新对话。
 
-安装程序只会把 Skill 复制到个人 Codex skills 目录，不需要管理员权限。检测到同名 Skill 时会停止，不会覆盖原文件。
+安装程序只会把技能复制到个人 Codex 技能目录，不需要管理员权限。检测到同名技能时会停止，不会覆盖原文件。
+
+如果 Mac 首次打开时提示无法验证开发者，请右键点击 `install.command`，选择“打开”，再确认一次。
 
 ### 方法三：复制一行命令安装
 
@@ -78,11 +87,11 @@ curl -fsSL https://raw.githubusercontent.com/tanqi87/chinese-literature-review-w
 
 ```text
 chinese-literature-review-writing-skill/
-├── assets/
-│   └── wechat-pay.jpg
+├── chinese-literature-review-writing-installer.zip
 ├── install.command
 ├── install.sh
 ├── README.md
+├── wechat-pay.jpg
 └── chinese-literature-review-writing/
     ├── SKILL.md
     ├── agents/
@@ -119,18 +128,18 @@ chinese-literature-review-writing-skill/
 - 只有摘要时，不推断正文中的样本、方法和局限；
 - 没有完成系统检索时，不使用“首次研究”“填补空白”等绝对说法；
 - 生成内容应结合导师意见和学校要求继续核验；
-- 本 Skill 用于学习、研究整理和写作辅助，不替代作者本人的学术判断。
+- 本技能用于学习、研究整理和写作辅助，不替代作者本人的学术判断。
 
 ## 联系方式与自愿支持
 
 微信：`Eternity_8787`
 
-添加时可备注：`GitHub 综述 Skill`
+添加时可备注：`GitHub 文献综述救星`
 
-如果这个 Skill 对你有帮助，欢迎自愿请我喝一杯咖啡。支持完全自愿，不影响下载、安装和使用，也不代表购买任何论文服务或获得额外承诺。
+如果“文献综述救星”对你有帮助，欢迎自愿请我喝一杯咖啡。支持完全自愿，不影响下载、安装和使用，也不代表购买任何论文服务或获得额外承诺。
 
 请勿在付款备注中填写论文内容、学校、学号或其他个人敏感信息。
 
 <p align="center">
-  <img src="assets/wechat-pay.jpg" alt="微信自愿支持二维码" width="360">
+  <img src="wechat-pay.jpg" alt="微信自愿支持二维码" width="360">
 </p>
