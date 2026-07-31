@@ -1,0 +1,4 @@
+interface:
+  display_name: "中文论文综述写作"
+  short_description: "检索并核验高质量文献，完成中文论文综述梳理、写作与修改"
+  default_prompt: "使用 $chinese-literature-review-writing 以近 3—5 年国内外核心期刊为主，结合相关学科优势院校的硕士论文，整理可核验文献并撰写中文综述。"
