@@ -12,7 +12,7 @@ STAGING_DIR=""
 
 show_help() {
   printf '%s\n' \
-    "安装中文论文综述写作 Skill" \
+    "安装“文献综述救星”中文论文综述写作技能" \
     "" \
     "用法：" \
     "  bash install.sh" \
@@ -20,7 +20,7 @@ show_help() {
     "" \
     "说明：" \
     "  默认安装到 ~/.codex/skills/" \
-    "  如果已经存在同名 Skill，安装程序会停止，不会覆盖原文件。"
+    "  如果已经存在同名技能，安装程序会停止，不会覆盖原文件。"
 }
 
 while [[ $# -gt 0 ]]; do
@@ -58,7 +58,7 @@ cleanup() {
 trap cleanup EXIT
 
 if [[ -e "$DESTINATION_DIR" ]]; then
-  echo "已检测到同名 Skill：$DESTINATION_DIR"
+  echo "已检测到同名技能：$DESTINATION_DIR"
   echo "为避免覆盖你的文件，本次没有执行安装。"
   exit 0
 fi
@@ -81,7 +81,7 @@ if [[ -z "$SOURCE_DIR" || ! -f "$SOURCE_DIR/SKILL.md" ]]; then
   EXTRACT_PATH="$TEMP_DOWNLOAD_DIR/extracted"
   mkdir -p "$EXTRACT_PATH"
 
-  echo "正在从 GitHub 下载 Skill…"
+  echo "正在从 GitHub 下载“文献综述救星”…"
   curl -fsSL "https://github.com/$REPOSITORY/archive/refs/heads/main.zip" -o "$ARCHIVE_PATH"
 
   if command -v ditto >/dev/null 2>&1; then
@@ -116,7 +116,7 @@ cp -R "$SOURCE_DIR"/. "$STAGING_DIR"/
 
 for REQUIRED_FILE in "${REQUIRED_FILES[@]}"; do
   if [[ ! -f "$STAGING_DIR/$REQUIRED_FILE" ]]; then
-    echo "错误：复制后的 Skill 文件不完整，缺少 $REQUIRED_FILE。"
+    echo "错误：复制后的技能文件不完整，缺少 $REQUIRED_FILE。"
     exit 1
   fi
 done
