@@ -5,7 +5,7 @@ set -o pipefail
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 INSTALLER="$SCRIPT_DIR/install.sh"
 
-echo "中文论文综述写作 Skill 安装程序"
+echo "“文献综述救星”中文论文综述写作技能安装程序"
 echo
 
 if [[ -f "$INSTALLER" ]]; then
