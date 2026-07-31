@@ -1,9 +1,9 @@
 ---
 name: chinese-literature-review-writing
-description: "Retrieve, screen, organize, write, revise, and quality-check Chinese academic literature reviews from user-supplied or verifiably retrieved sources. Use for 文献检索与筛选、文献综述、国内外研究现状、相关研究述评、主题/理论/方法/时间线梳理、文献矩阵、综述提纲、综述段落写作或修改，以及从 PDF、DOCX、Excel、CSV、文献笔记或参考文献表提炼综述；prioritize recent core-journal research and relevant master's theses from strong disciplines, preserve source facts and citation labels, and never fabricate literature, rankings, data, quotations, pages, DOI, URLs, or school rules."
+description: "用于中文学术文献的检索、筛选、整理、综述写作、修改与质量检查。适用于文献综述、国内外研究现状、相关研究述评、文献检索与筛选、主题/理论/方法/时间线梳理、文献矩阵、综述提纲、综述段落写作或修改，以及从 PDF、DOCX、Excel、CSV、文献笔记或参考文献表提炼综述；优先采用近年核心期刊研究和学科实力较强院校的相关硕士论文，保留来源事实与引文标识，不编造文献、排名、数据、引语、页码、DOI、网址或学校规则。"
 ---
 
-# 中文论文综述写作
+# 文献综述救星：中文论文综述写作
 
 ## 坚持证据先行
 
